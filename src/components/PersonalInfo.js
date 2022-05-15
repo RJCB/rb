@@ -2,9 +2,9 @@ import React from 'react';
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const PersonalInfo = () => {
-    const FL_List = ["HTML5", "CSS3", "SASS", "BOOTSTRAP", "TAILWIND", "JAVASCRIPT ES6+", "EMBER JS", "REACT JS", "REDUX", "HANDLEBARS", "CYPRESS", "QUNIT", "AGILE"];
+    const FL_List = ["HTML5", "CSS3", "SASS", "BOOTSTRAP", "TAILWIND", "JAVASCRIPT ES6+", "EMBER JS", "REACT JS", "VUE JS", "REDUX", "HANDLEBARS", "CYPRESS", "QUNIT", "AGILE"];
     const VC_List = ["GIT", "GITHUB"];
-    const ALLY_List = ["WCAG", "NVDA", "VOICEOVER"];
+    const ALLY_List = ["AXE", "NVDA", "VOICEOVER"];
 
     const FLelements = FL_List.map((list, index) => {
         return <span key={list + index} className="skill">{list}</span>

@@ -35,7 +35,7 @@ const ProfessionalInfo = () => {
                 </CardGroup>
             </div>
             <div className="projects">
-                <h2>PROJECTS</h2>
+                <h2>PERSONAL PROJECTS</h2>
                 <CardGroup style={{ flexDirection: "column" }}>
                     <Card body>
                         <Card.Title as="h3">The Movie Database</Card.Title>
@@ -71,9 +71,9 @@ const ProfessionalInfo = () => {
                 <CardGroup style={{ flexDirection: "column" }}>
                     <Card body className="tmdb">
                         <Card.Title as="h3">Bachelors degree in Electronics and communications engineering - 2012</Card.Title>
-                        <p className="techstack"><span>JNTU. Hyderabad, India</span></p>
+                        <p className="techstack"><span>JNTU - Hyderabad, India</span></p>
                         <Card.Title as="h3">Electromechanical engineering technologist - 2015</Card.Title>
-                        <p className="techstack"><span>George Brown College. Toronto</span></p>
+                        <p className="techstack"><span>George Brown College - Toronto</span></p>
                         <Card.Title as="h3">ITIL - 2018</Card.Title>
                     </Card>
                 </CardGroup>
