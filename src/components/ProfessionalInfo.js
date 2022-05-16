@@ -10,26 +10,34 @@ const ProfessionalInfo = () => {
                     <Card body>
                         <Card.Title as="h3">CIBC</Card.Title>
                         <h4>Front-End developer<span>May 2019 - current</span></h4>
-                        <p className="techstack"><span>HTML, CSS, JS ES6+, Ember JS, Vue JS, Handlebars, Sass</span></p>
+                        <p className="techstack"><span>HTML, CSS, JS ES6+, Ember JS, Vue JS, Handlebars, Sass, Git, GitHub</span></p>
                         <div className="role">
                             <p>Build and maintain CIBC and Simplii banking applications</p>
                         </div>
                     </Card>
                     <Card body>
-                        <h3>WHICH COMPANY</h3>
-                        <h4>Front-End developer<span>Sep 2017 - May 2019</span></h4>
-                        <p className="techstack"><span>HTML, CSS, JS ES6+, React JS, Redux, Sass</span></p>
+                        <h3>Ganga Tech - Kontron</h3>
+                        <h4>Front-End developer<span>Nov 2017 - May 2019</span></h4>
+                        <p className="techstack"><span>HTML, CSS, JS ES6+, React JS, Redux, Sass, Git, GitHub</span></p>
                         <div className="role">
-                            <p>Build and maintain CIBC and Simplii banking applications</p>
+                            <p>Build and maintain test results related internal application</p>
+                        </div>
+                    </Card>
+                    <Card body>
+                        <h3>Ganga Tech - Flir systems</h3>
+                        <h4>Front-End developer<span>Sep 2016 - Nov 2017</span></h4>
+                        <p className="techstack"><span>HTML, CSS, JS ES6+, Angular JS, Bootstrap, Git, GitHub</span></p>
+                        <div className="role">
+                            <p>Build and maintain Flir systems web application</p>
                         </div>
                     </Card>
                     <Card body>
                         <h3>Paragon Systems</h3>
-                        <h4>Front-End developer<span>Apr 2016 - Sep 2017</span></h4>
-                        <p className="techstack"><span>HTML, CSS, JS ES6+, Ember JS, Handlebars</span></p>
+                        <h4>Web developer<span>Apr 2016 - Aug 2016</span></h4>
+                        <p className="techstack"><span>HTML, CSS, JavaScript</span></p>
                         <div className="role">
                             <p>Build and maintain an Internal application</p>
-                            <p>Work with designer to design FE part of the application</p>
+                            <p>Design FE part of the application</p>
                         </div>
                     </Card>
                 </CardGroup>
