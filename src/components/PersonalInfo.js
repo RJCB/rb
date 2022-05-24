@@ -22,7 +22,7 @@ const PersonalInfo = () => {
         <div className="personal-info">
             <h1>Rajesh B</h1>
             <h2>Front-End Web Developer</h2>
-            <p className="personal-info_description">I set out to be an Electromechanical engineer but ended up becoming a Programmer. Whatever the profession might be, I am still building things and fixing things that are broken. I am currently working as a Front-end developer in Toronto.</p>
+            <p className="personal-info_description">I set out to be an Electromechanical engineer but ended up becoming a Programmer. Whatever the profession might be, I am still doing what I always wanted to do, building things and fixing things that are broken. I am currently working as a Front-end developer in Toronto.</p>
             <div className="skills">
                 <p><span className="skill-heading">Frameworks and Libraries:</span><span>{FLelements}</span> </p>
                 <p><span className="skill-heading">Version control:</span> <span>{VCelements}</span></p>
