@@ -26,9 +26,9 @@ const ProfessionalInfo = () => {
                     <Card body>
                         <h3>Flir systems</h3>
                         <h4>Front-End developer<span>Mar 2017 - Nov 2017</span></h4>
-                        <p className="techstack"><span>HTML, CSS, JS ES6+, Sass, React JS, Redux, Git, GitHub</span></p>
+                        <p className="techstack"><span>HTML, CSS, JS ES6+, Sass, React JS, Redux, BitBucket</span></p>
                         <div className="role">
-                            <p>Build and maintain Flir systems web application</p>
+                            <p>Build and maintain Flir systems web application and an internal product application</p>
                         </div>
                     </Card>
                     <Card body>
