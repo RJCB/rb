@@ -2,8 +2,8 @@ import React from 'react';
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const PersonalInfo = () => {
-    const FL_List = ["HTML5", "CSS3", "SASS", "BOOTSTRAP", "TAILWIND", "JAVASCRIPT ES6+", "EMBER JS", "REACT JS", "VUE JS", "REDUX", "HANDLEBARS", "CYPRESS", "QUNIT", "AGILE"];
-    const VC_List = ["GIT", "GITHUB", "BitBucket"];
+    const FL_List = ["HTML5", "CSS3", "SASS", "Stylus", "BOOTSTRAP", "TAILWIND", "JAVASCRIPT ES6+", "EMBER JS", "REACT JS", "Dojo Toolkit", "VUE JS", "REDUX", "HANDLEBARS", "CYPRESS", "QUNIT", "AGILE"];
+    const VC_List = ["GIT", "GITHUB", "Azure DevOps Repos", "BitBucket"];
     const ALLY_List = ["AXE", "NVDA", "VOICEOVER"];
 
     const FLelements = FL_List.map((list, index) => {

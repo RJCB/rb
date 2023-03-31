@@ -8,8 +8,16 @@ const ProfessionalInfo = () => {
                 <h2>WORK EXPERIENCE</h2>
                 <CardGroup style={{ flexDirection: "column" }}>
                     <Card body>
+                        <Card.Title as="h3">Ceridian HCM</Card.Title>
+                        <h4>Front-End developer<span>June 2022 - present</span></h4>
+                        <p className="techstack"><span>HTML, CSS, JS ES6+, Dojo Toolkit, React JS, Redux, Sass, Stylus, Git, Azure DevOps Repos</span></p>
+                        <div className="role">
+                            <p>Build, maintain and remediate Dayforce application in Dojo Toolkit and React JS</p>
+                        </div>
+                    </Card>
+                    <Card body>
                         <Card.Title as="h3">CIBC</Card.Title>
-                        <h4>Front-End developer<span>May 2019 - present</span></h4>
+                        <h4>Front-End developer<span>May 2019 - June 2022</span></h4>
                         <p className="techstack"><span>HTML, CSS, JS ES6+, Ember JS, Vue JS, React JS, Redux, Handlebars, Sass, Git, GitHub</span></p>
                         <div className="role">
                             <p>Build and maintain CIBC and Simplii banking applications</p>
@@ -31,7 +39,7 @@ const ProfessionalInfo = () => {
                             <p>Build and maintain Flir systems web application and an internal product application</p>
                         </div>
                     </Card>
-                    <Card body>
+                    {/* <Card body>
                         <h3>Paragon Systems</h3>
                         <h4>Web developer<span>Apr 2016 - Jan 2017</span></h4>
                         <p className="techstack"><span>HTML, CSS, JavaScript, Angular JS</span></p>
@@ -39,7 +47,7 @@ const ProfessionalInfo = () => {
                             <p>Build and maintain an Internal application</p>
                             <p>Design FE part of the application</p>
                         </div>
-                    </Card>
+                    </Card> */}
                 </CardGroup>
             </div>
             <div className="projects">
