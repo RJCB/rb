@@ -1,183 +1,180 @@
 .App {
-	color: #fff;
-	letter-spacing: 0.1px;
+  color: #fff;
+  letter-spacing: 0.1px;
 
-	.personal-info {
-		h1 {
-			font-size: 48px;
-			font-weight: 700;
-			line-height: 1.5;
-		}
+  .personal-info {
+    h1 {
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 1.5;
+    }
 
-		h2 {
-			font-size: 24px;
-			font-weight: 600;
-			line-height: 1.25;
-		}
+    h2 {
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 1.25;
+    }
 
-		&_description {
-			color: #949495;
-			font-size: 14px;
-			margin: 32px 0 0;
-			line-height: 2;
-			/* text-align: justify; */
-		}
+    &_description {
+      color: #949495;
+      font-size: 14px;
+      margin: 32px 0 0;
+      line-height: 2;
+      /* text-align: justify; */
+    }
 
-		&_icons {
-			margin-top: 30px;
-			margin-bottom: 30px;
+    &_icons {
+      margin-top: 30px;
+      margin-bottom: 30px;
 
-			a {
-				font-size: 16px;
-				color: #fff;
+      a {
+        font-size: 16px;
+        color: #fff;
 
-				span:last-of-type {
-					text-decoration: underline;
-				}
+        span:last-of-type {
+          text-decoration: underline;
+        }
 
-				span {
-					padding-right: 8px;
-				}
+        span {
+          padding-right: 8px;
+        }
 
-				&:first-of-type {
-					padding-right: 20px;
-				}
-			}
-		}
+        &:first-of-type {
+          padding-right: 20px;
+        }
+      }
+    }
 
-		&_location {
-			font-size: 12px;
-		}
+    &_location {
+      font-size: 12px;
+    }
 
-		.skills {
-			color: #949495;
-			margin-top: 30px;
+    .skills {
+      color: #949495;
+      margin-top: 30px;
 
-			p {
-				display: flex;
-			}
+      p {
+        display: flex;
+      }
 
-			.skill-heading {
-				font-size: 14px;
-				line-height: 2;
-				font-weight: 700;
-				margin-right: 20px;
-			}
+      .skill-heading {
+        font-size: 14px;
+        line-height: 2;
+        font-weight: 700;
+        margin-right: 20px;
+      }
 
-			.skill {
-				border: 0.5px solid #fff;
-				display: inline-block;
-				padding: 2px;
-				font-size: 10px;
-				margin-right: 5px;
-				line-height: 1.25;
-			}
-		}
+      .skill {
+        border: 0.5px solid #fff;
+        display: inline-block;
+        padding: 2px;
+        font-size: 10px;
+        margin-right: 5px;
+        line-height: 1.25;
+      }
+    }
+  }
 
-	}
+  .professional-info {
+    h2 {
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 3px;
+      margin-bottom: 20px;
+    }
 
-	.professional-info {
-		h2 {
-			font-size: 12px;
-			font-weight: 700;
-			letter-spacing: 3px;
-			margin-bottom: 20px;
-		}
+    .card {
+      background-color: #202022;
+      margin-bottom: 20px;
 
-		.card {
-			background-color: #202022;
-			margin-bottom: 20px;
+      h3 {
+        font-size: 18px;
+        letter-spacing: 2px;
+      }
 
-			h3 {
-				font-size: 18px;
-				letter-spacing: 2px;
-			}
+      h4 {
+        font-size: 14px;
+        color: #949495;
 
-			h4 {
-				font-size: 14px;
-				color: #949495;
+        span {
+          font-size: 12px;
 
-				span {
-					font-size: 12px;
+          &::before {
+            content: "\2022";
+            color: #fff;
+            font-weight: bold;
+            display: inline-block;
+            padding: 0 4px;
+          }
+        }
+      }
 
-					&::before {
-						content: "\2022";
-						color: #fff;
-						font-weight: bold;
-						display: inline-block;
-						padding: 0 4px;
-					}
-				}
-			}
+      p {
+        font-size: 14px;
 
-			p {
-				font-size: 14px;
+        &.techstack {
+          color: #949495;
+          font-size: 12px;
+          margin-bottom: 16px;
+        }
+      }
 
-				&.techstack {
-					color: #949495;
-					font-size: 12px;
-					margin-bottom: 16px;
-				}
-			}
+      .role {
+        p:not(:only-child),
+        p:not(:last-of-type) {
+          margin-bottom: 8px;
+        }
 
-			.role {
+        p:last-of-type {
+          margin-bottom: 0;
+        }
+      }
+    }
 
-				p:not(:only-child),
-				p:not(:last-of-type) {
-					margin-bottom: 8px;
-				}
+    .projects,
+    .education {
+      margin-top: 40px;
 
-				p:last-of-type {
-					margin-bottom: 0;
-				}
-			}
-		}
-
-		.projects,
-		.education {
-			margin-top: 40px;
-
-			a {
-				color: #fff;
-				font-size: 12px;
-			}
-		}
-	}
+      a {
+        color: #fff;
+        font-size: 12px;
+      }
+    }
+  }
 }
 
 //breakpoints
-@media screen and (min-width:992px) {
+@media screen and (min-width: 992px) {
+  .App {
+    padding-top: 40px;
 
-	.App {
-		padding-top: 40px;
+    .personal-info_icons {
+      position: absolute;
+      bottom: 50px;
+    }
 
-		.personal-info_icons {
-			position: absolute;
-			bottom: 50px;
-		}
+    .professional-info {
+      overflow: scroll;
+      height: 95vh;
+    }
 
-		.professional-info {
-			overflow: scroll;
-			height: 95vh;
-		}
+    .row div:last-of-type {
+      ::-webkit-scrollbar {
+        -webkit-appearance: none;
+      }
 
-		.row div:last-of-type {
-			::-webkit-scrollbar {
-				-webkit-appearance: none;
-			}
+      ::-webkit-scrollbar:vertical {
+        width: 4px;
+      }
 
-			::-webkit-scrollbar:vertical {
-				width: 4px;
-			}
+      ::-webkit-scrollbar-thumb {
+        border-radius: 4px;
+        background-color: rgba(255, 255, 255, 0.3);
+      }
 
-			::-webkit-scrollbar-thumb {
-				border-radius: 4px;
-				background-color: rgba(255, 255, 255, .3);
-			}
-
-			::-webkit-scrollbar:horizontal {
-				display: none;
-			}
-		}
-	}
+      ::-webkit-scrollbar:horizontal {
+        display: none;
+      }
+    }
+  }
 }
